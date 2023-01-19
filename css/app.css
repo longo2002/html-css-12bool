@@ -51,10 +51,19 @@ html{
     background-color: lightgreen;
 	color: white;
 	border: 1px solid white;
+    height: 20px;
+}
+
+.nest-container{
+    padding: 10px;
 }
 
 section{
     margin-bottom: 50px;
+}
+
+.draw-white{
+    background-color: white;
 }
 
 /* /////dimensioni col////// */
@@ -105,4 +114,50 @@ section{
 
 .col12 {
 	flex-basis: calc((100% / 12) * 12);
+}
+
+/* /////Offset////// */
+
+.col1-offset {
+	margin-left: calc((100% / 12) * 1);
+}
+
+.col2-offset {
+	margin-left: calc((100% / 12) * 2);
+}
+
+.col3-offset {
+	margin-left: calc((100% / 12) * 3);
+}
+
+.col4-offset {
+	margin-left: calc((100% / 12) * 4);
+}
+
+.col5-offset {
+	margin-left: calc((100% / 12) * 5);
+}
+
+.col6-offset {
+	margin-left: calc((100% / 12) * 6);
+}
+
+.col7-offset {
+	margin-left: calc((100% / 12) * 7);
+}
+
+.col8-offset {
+	margin-left: calc((100% / 12) * 8);
+}
+
+.col9-offset {
+	margin-left: calc((100% / 12) * 9);
+}
+
+.col10-offset {
+	margin-left: calc((100% / 12) * 10);
+}
+
+.col11-offset {
+	margin-left: calc((100% / 12) * 11);
 }
